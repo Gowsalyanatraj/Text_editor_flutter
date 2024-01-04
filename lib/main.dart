@@ -66,7 +66,6 @@ class _MyAppState extends State<MyApp> {
                             buttonOptions: QuillSimpleToolbarButtonOptions(),
                             controller: _controller,
                             toolbarIconAlignment: WrapAlignment.spaceBetween,
-                            
                             multiRowsDisplay: true,
                             showRedo: false,
                             showSubscript: false,
