@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
                               TextButton.icon(
                                   onPressed: () {},
                                   icon: Icon(Icons.upload),
-                                  label: Text("Browse Template")),
+                                  label: Text("Browse Template")), 
                             ],
                           ),
                         ),
