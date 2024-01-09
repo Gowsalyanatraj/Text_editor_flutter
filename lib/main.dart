@@ -81,6 +81,7 @@ class _MyAppState extends State<MyApp> {
                             showQuote: false,
                             showSearchButton: false,
                             toolbarIconCrossAlignment: WrapCrossAlignment.start,
+                            color: Colors.amber
                           )),
                         ),
                         const SizedBox(height: 15),
