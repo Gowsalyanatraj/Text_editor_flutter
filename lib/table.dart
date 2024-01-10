@@ -47,12 +47,12 @@ class _MyQuillEditorState extends State<MyQuillEditorS> {
       ),
       body: Column(
         children: [
-          quill.QuillToolbar.simple(configurations: null
+          quill.QuillToolbar.simple(configurations: quill.QuillSimpleToolbarConfigurations(controller: _controller)
            
           ),
           ElevatedButton(
             onPressed: _insertTable,
-            child: Text('Add Table'),
+            child: Text('Inser table'),
           ),
           Expanded(
             child: Container(
