@@ -41,6 +41,7 @@ dependencies:
   path_provider: ^2.1.1
   flutter_localizations:
     sdk: flutter
+  appflowy_editor: ^2.2.0
 
 dev_dependencies:
   flutter_test:
