@@ -20,7 +20,19 @@ late final EditorState _editorState;
       ),
       body: Padding(
         padding: EdgeInsets.all(16),
-        child: AppFlowyEditor(editable: true, editorState:  _editorState )
+        child: AppFlowyEditor(
+          editable: true, 
+          editorState: _editorState ,
+  //         actions: [
+  //   BoldAction(), 
+  //   ItalicAction(),
+  //   StrikethroughAction(),
+  //   LinkAction(),
+  //   BlockquoteAction(),
+  //   HeadingOneAction(),
+  //   HeadingTwoAction(),
+  // ],
+          )
       ),
     );
   }
