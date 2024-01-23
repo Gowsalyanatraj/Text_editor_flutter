@@ -16,23 +16,14 @@ late final EditorState _editorState;
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Editor Demo"),
+        title: const Text("Editor Demo"),
       ),
       body: Padding(
         padding: EdgeInsets.all(16),
         child: AppFlowyEditor(
           editable: true, 
           editorState: _editorState ,
-  //         actions: [
-  //   BoldAction(), 
-  //   ItalicAction(),
-  //   StrikethroughAction(),
-  //   LinkAction(),
-  //   BlockquoteAction(),
-  //   HeadingOneAction(),
-  //   HeadingTwoAction(),
-  // ],
-          )
+)
       ),
     );
   }
